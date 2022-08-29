@@ -24,3 +24,5 @@ class LoginPage(BasePage):
         assert self.is_element_present(*LoginPageLocators.REG_EMAIL),"Registration Email is not presented"
         assert self.is_element_present(*LoginPageLocators.REG_PASSWORD1),"Registration Password 1 is not presented" 
         assert self.is_element_present(*LoginPageLocators.REG_PASSWORD2),"Registration Password 2 is not presented"
+        
+        
